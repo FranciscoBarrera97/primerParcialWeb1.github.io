@@ -1,0 +1,214 @@
+body {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
+ background-color: #f0f0f0;
+ margin: 0;
+
+}
+
+
+header {
+
+background-color: #eee;
+padding: 20px;
+display: flex;
+align-items: center;
+
+}
+
+
+
+
+
+.logo-container {
+margin-right: 20px;
+
+}
+
+
+
+.logo-container img {
+max-height: 100px;
+}
+
+
+
+header h1 {
+margin: 0;
+flex-grow: 1;
+text-align: center;
+
+}
+
+
+
+
+
+#animation-container {
+display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-color: #fff;
+ padding: 20px;
+ border-radius: 8px;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+
+#canvas-with-reset {
+  display: flex; 
+  align-items: center; 
+  margin-bottom: 20px;
+}
+
+#canvas-with-reset button{
+  border-radius: 100px;
+}
+#canvas-container {
+margin-bottom: 20px;
+border: 1px solid #ccc;
+
+}
+
+
+
+#controls {
+display: flex;
+ gap: 10px;
+justify-content: center;
+margin-bottom: 10px;
+border: 2px black;
+margin-right:90px;
+}
+
+
+
+button {
+padding: 8px 15px;
+ border-radius: 4px;
+cursor: pointer;
+font-weight: bold;
+ transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+ opacity: 0.8;
+
+}
+
+#descripcion{
+ width: 80%;
+max-width: 100%;
+margin: 20px auto;
+ padding: 20px;
+ background-color: #f9f9f9;
+ border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+text-align: center;
+ margin-top: 30px;
+ margin-bottom: 30px;
+
+}
+
+
+
+#estudiantes {
+ display: flex; 
+ justify-content: space-around; 
+ align-items: center; 
+ width: 80%; 
+max-width: 960px; 
+margin: 20px auto; 
+ padding: 20px;
+ background-color: #f9f9f9; 
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); 
+
+}
+
+
+
+.card {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+text-align: center;
+background-color: #fff;
+ border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+padding: 15px;
+ width: 45%;
+}
+
+
+
+.card img {
+ width: 125px;
+height: 125px;
+ border-radius: 50%;
+ object-fit: cover;
+ margin-bottom: 10px;
+
+}
+
+
+.card h2 {
+ margin-top: 0;
+margin-bottom: 5px;
+ font-size: 1.2em;
+ color: #333;
+}
+
+
+
+.card p {
+ margin-bottom: 0;
+ color: #666;
+ font-size: 0.95em;
+
+}
+
+
+
+.card:hover {
+background-color: #f0f0f0;
+color: #007bff; 
+cursor: pointer; 
+}
+
+.card:hover h2 {
+ color: #007bff; 
+}
+
+
+
+.card:hover p {
+color: #007bff; 
+}
+
+
+
+
+
+footer {
+ display: flex;
+ justify-content: space-around; 
+ align-items: center; 
+ background-color: #fff; 
+ padding: 15px 20px; 
+ margin-top: 20px; 
+ width: 100%; 
+ box-sizing: border-box;
+ font-size: 0.9em; 
+ color: #555; 
+ width: 100%;
+}
+
+footer p {
+margin: 5px 0;
+}
